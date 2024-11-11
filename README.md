@@ -1,4 +1,4 @@
-# baekjoon
+# Algorithm
 
-알고리즘 푼 문제들 모음
+## 백준 푼 문제들 모음
 <https://www.acmicpc.net/user/askdlf>
