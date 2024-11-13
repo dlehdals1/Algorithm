@@ -13,7 +13,7 @@ for i in range(n):
     if max(board[i]) > biggest:
         biggest = max(board[i])
 
-board_q.append((board, 0))  # 큐에 보드 상태와 깊이를 함께 저장
+board_q.append((board, 0)) 
 
 def push_line(line):
     global biggest

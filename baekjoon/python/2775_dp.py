@@ -7,5 +7,5 @@ for i in range(1,15):
 for i in range(t):
     k = int(input())
     n = int(input())
-    print(f"answer:{apt[k][n]}")
+    print(apt[k][n])
     

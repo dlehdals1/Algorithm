@@ -69,8 +69,3 @@ for command in commands:
     dice, mat, x, y, moved = command_move(dice, x, y, mat, command)
     if moved:
         print(dice[1])
-    # print()
-    # print(command)
-    # print(dice)
-    # for i in mat:
-    #     print(i[0], i[1])

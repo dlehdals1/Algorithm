@@ -15,7 +15,7 @@ for _ in range(k):
     map[int(x_y.split(" ")[0])][int(x_y.split(" ")[1])] = 1
 
 
-time_rule = deque() #시간과 방향
+time_rule = deque() 
 dir_rule = deque()
 
 l = int(input())
@@ -31,7 +31,6 @@ for _ in range(l):
 
 count = 0
 snake = deque([[1,1]])
-#오른쪽은 0 아래는 1 왼쪽은 2 위는 3
 dir = 0
 cur_time_rule = time_rule.popleft() if time_rule else None
 cur_dir_rule = dir_rule.popleft() if dir_rule else None
