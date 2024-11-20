@@ -49,9 +49,9 @@ while True:
     if len(O_count) == len(X_count) or len(O_count) == len(X_count) - 1:
 
         result = bingos(O_count, X_count)
-        
+
         print(result)
-        print(X_count, O_count)
+        print(O_count, X_count)
 
         if result == "O" and len(O_count) != len(X_count):
             print("invalid")
